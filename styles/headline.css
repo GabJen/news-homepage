@@ -1,0 +1,9 @@
+main {
+    grid-column: 1;
+    display: flex;
+}
+.mh-image {
+    background-image: url('../assets/images/image-web-3-desktop.jpg');
+    width: 731px;
+    height: 300px;
+}
