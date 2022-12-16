@@ -27,7 +27,9 @@ body{
     padding: 90px 165px 130px;
     display: grid;
     grid-template-columns: 65.8% 34.2%;
+    grid-template-rows: 64px 50% auto;
     column-gap: 30px;
+    row-gap: 70px;
 }
 /*Media queries*/
 /*mobile*/
