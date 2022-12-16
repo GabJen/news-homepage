@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    grid-column: span 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+   list-style: none;
+   display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+nav li a:hover {
+    color: var(--soft-red);
+}
