@@ -18,19 +18,22 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     max-width: 100vw;
-    padding: 90px 165px 130px;
+    padding: 80px 200px 130px;
     display: grid;
     grid-template-columns: 65.8% 34.2%;
-    grid-template-rows: 64px 50% auto;
+    grid-template-rows: 64px 30% auto;
     column-gap: 30px;
-    row-gap: 70px;
+    row-gap: 45px;
+}
+
+body * {
+    box-sizing: border-box;
 }
 /*Media queries*/
 /*mobile*/
