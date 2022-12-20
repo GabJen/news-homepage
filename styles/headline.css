@@ -3,6 +3,7 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 300px 211px;
+    row-gap: 25px;
 }
 .mh-image {
     background-image: url('../assets/images/image-web-3-desktop.jpg');
@@ -13,11 +14,11 @@ main {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 800;
     grid-column: 1;
     grid-row: 2;
-    padding-right: 50px;
+    padding: 25px 50px 0 0;
 }
 
 .headline-body {
@@ -25,14 +26,10 @@ h1 {
     grid-row: 2;
 }
 
-h1, .headline-body {
-    padding-top: 35px;
-}
-
 .headline-body p {
     color: var(--dark-grayish-blue);
     line-height: 24pt;
-
+    margin-bottom: 25px;
 }
 
 .headline-body button {
