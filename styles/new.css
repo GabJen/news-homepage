@@ -1,0 +1,20 @@
+#new {
+    background-color: var(--very-dark-blue);
+    color: var(--grayish-blue);
+    padding: 40px 30px;
+}
+
+.new-header {
+    color: var(--soft-orange);
+    margin-bottom: 40px;
+}
+
+.new-card-header {
+    color: var(--off-white);
+    margin-bottom: 17px;
+}
+
+hr {
+    margin: 38px 0 34px;
+    border: 0.5px solid var(--grayish-blue);
+}
