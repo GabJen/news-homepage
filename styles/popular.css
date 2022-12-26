@@ -2,4 +2,33 @@
     margin-top: 70px;
     grid-column: span 2;
     display: flex;
+    justify-content: space-between;
+}
+
+.popular-card {
+    display: flex;
+    margin-right: 45px;
+}
+
+.popular-card span {
+    font-size: 32px;
+    color: var(--grayish-blue);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.popular-card-header {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.popular-card-txt p {
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+}
+
+.popular-card-img {
+    width: 100px;
+    height: 125px;
+    margin-right: 25px;
 }
