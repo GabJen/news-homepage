@@ -3,6 +3,7 @@
 @import url('./headline.css');
 @import url('./new.css');
 @import url('./popular.css');
+@import url('./footer.css');
 
 :root {
     /*Primary*/
