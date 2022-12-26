@@ -1,0 +1,16 @@
+footer {
+    grid-column: span 2;
+    width: 100%;
+    color: var(--dark-grayish-blue);
+    margin-top: 100px;
+}
+
+footer address {
+    margin-top: 10px;
+    font-style: normal
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
