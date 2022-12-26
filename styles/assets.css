@@ -7,10 +7,6 @@ nav li a:hover,
     background-color: var(--very-dark-blue);
 }
 
-.new-card-header:hover {
-    color: var(--soft-orange);
-}
-
-footer a:hover {
+.new-card-header:hover, footer a:hover {
     color: var(--soft-orange);
 }
