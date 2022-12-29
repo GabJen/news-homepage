@@ -5,6 +5,7 @@
 @import url('./popular.css');
 @import url('./footer.css');
 @import url('./assets.css');
+@import url('./mediaquery.css');
 
 :root {
     /*Primary*/
