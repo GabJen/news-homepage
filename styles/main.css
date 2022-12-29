@@ -37,8 +37,3 @@ body{
 body * {
     box-sizing: border-box;
 }
-/*Media queries*/
-/*mobile*/
-@media screen and (max-width:375px){
-    
-}
