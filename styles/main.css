@@ -31,7 +31,7 @@ body{
     display: grid;
     grid-template-columns: 65.8% auto;
     column-gap: 30px; */
-    margin: 50px 30px 30px
+    margin: 30px 15px 30px
 }
 
 body * {
