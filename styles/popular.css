@@ -1,13 +1,14 @@
 #popular {
     margin-top: 70px;
-    grid-column: span 2;
+    /* grid-column: span 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .popular-card {
     display: flex;
     margin-right: 45px;
+    margin-bottom: 40px;
 }
 
 .popular-card span {
