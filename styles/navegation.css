@@ -6,9 +6,13 @@ nav {
     margin-bottom: 55px;
 }
 
+/* ul {
+
+} */
+
 nav li {
    list-style: none;
-   display: inline-block;
+   /* display: inline-block; */
 }
 
 nav li a {
@@ -20,3 +24,15 @@ nav li a {
 nav li a:hover {
     color: var(--soft-red);
 }
+
+/* #checkmenu {
+    display: none;
+} */
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+/* #checkmenu:checked ~ ul {
+    background-color: #000;
+} */
