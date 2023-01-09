@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
@@ -17,19 +17,25 @@
 <body>
 	<nav>
 		<img src="./assets/images/logo.svg" alt="logo of the page">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#new">New</a></li>
-			<li><a href="#popular">Popular</a></li>
-			<li><a href="#">Trending</a></li>
-			<li><a href="#">Categories</a></li>
-		</ul>
-		<!-- <div class="mobile-menu"> -->
-			<input type="checkbox" id="checkmenu">
+		<div class="responsive-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#new">New</a></li>
+				<li><a href="#popular">Popular</a></li>
+				<li><a href="#">Trending</a></li>
+				<li><a href="#">Categories</a></li>
+			</ul>
+			<div class="close-menu">
+				<img src="./assets/images/icon-menu-close.svg">
+			</div>
+			
+		</div>
+		<div class="open-menu">
 			<label class="menu-icon" for="checkmenu">
 				<img src="./assets/images/icon-menu.svg">
 			</label>
-		<!-- </div> -->
+			<input type="checkbox" id="checkmenu">
+		</div>
 	</nav>
 	<main>
 		<header>
