@@ -1,0 +1,1 @@
+const checkmenu = document
