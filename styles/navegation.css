@@ -7,7 +7,7 @@ nav {
 }
 
 .responsive-menu {
-    display: flex;
+    display: none;
     flex-direction: column-reverse;
     justify-content: flex-end;
     position: fixed;
@@ -51,10 +51,10 @@ nav li a:hover {
     color: var(--soft-red);
 }
 
- #checkmenu {
-    display: none;
-} 
-
-.hamburger:hover {
+.menu:hover {
     cursor: pointer;
+}
+
+.menu {
+    align-self: center;
 }
