@@ -1,0 +1,43 @@
+.responsive-menu {
+    display: none;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    width: 65%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    padding: 30px 15px 0 0;
+}
+
+.responsive-menu::after {
+    content: '';
+    background: rgba(black, black, black, 0.5);
+}
+
+.close-menu {
+    align-self: flex-end;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.responsive-menu li {
+   list-style: none;
+   display: block;
+   margin-bottom: 40px;
+}
+
+.responsive-menu a {
+    font-size: 1.3em;
+    color: var(--very-dark-blue);
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.menu {
+    align-self: center;
+}
