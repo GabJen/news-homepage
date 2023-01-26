@@ -12,12 +12,6 @@
     padding: 30px 15px 0 0;
 }
 
-.close-menu {
-    align-self: flex-end;
-    margin-bottom: 100px;
-    cursor: pointer;
-}
-
 .responsive-menu li {
    list-style: none;
    display: block;
@@ -35,4 +29,10 @@
 
 .menu {
     align-self: center;
+}
+
+.close-menu {
+    align-self: flex-end;
+    margin-bottom: 100px;
+    cursor: pointer;
 }
