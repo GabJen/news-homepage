@@ -1,8 +1,6 @@
 #popular {
     margin-top: 70px;
     grid-column: span 2;
-    /*display: flex;
-    justify-content: space-between; */
 }
 
 .popular-card {
