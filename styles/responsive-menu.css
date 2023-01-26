@@ -12,11 +12,6 @@
     padding: 30px 15px 0 0;
 }
 
-.responsive-menu::after {
-    content: '';
-    background: rgba(black, black, black, 0.5);
-}
-
 .close-menu {
     align-self: flex-end;
     margin-bottom: 100px;
