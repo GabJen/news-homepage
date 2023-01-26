@@ -23,12 +23,9 @@
     color: var(--very-dark-blue);
 }
 
-.menu:hover {
-    cursor: pointer;
-}
-
 .menu {
     align-self: center;
+    cursor: pointer;
 }
 
 .close-menu {
