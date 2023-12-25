@@ -3,6 +3,7 @@ nav {
     grid-column: span 2;
     justify-content: space-between;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 ul li {
@@ -17,5 +18,9 @@ nav li a {
 
 nav li a:hover {
     color: var(--soft-red);
+}
+
+.menu-icons {
+    display: none;
 }
 
