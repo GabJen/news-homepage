@@ -30,3 +30,28 @@ h1 {
     letter-spacing: 0.26em;
     align-self: flex-end;
 }
+
+@media screen and (min-width: 1300px) {
+    #headline {
+        grid-column: 1;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 300px 211px;
+        row-gap: 25px;
+    }
+
+    .headline-body {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    h1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .mh-image {
+        background-image: url('../assets/images/image-web-3-desktop.jpg');
+        width: 200%;
+    }
+}

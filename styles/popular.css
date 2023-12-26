@@ -31,3 +31,10 @@
     height: 125px;
     margin-right: 25px;
 }
+
+@media screen and (min-width: 1300px) {
+    #popular {
+        display: flex;
+        justify-content: space-between;
+    }
+}
