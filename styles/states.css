@@ -1,4 +1,4 @@
-#menu li a:hover, 
+.nav-item a:hover, 
 .popular-card-header:hover {
     color: var(--soft-red);
 }

@@ -15,11 +15,12 @@
     margin-bottom: 17px;
 }
 
-hr {
+.new-divider {
     margin: 38px 0 34px;
     border: 0.5px solid var(--grayish-blue);
 }
 
+/* FOR DESKTOPS */
 @media screen and (min-width: 1300px) {
     #new {
         grid-column: 2;

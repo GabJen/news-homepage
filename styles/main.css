@@ -32,14 +32,10 @@ body{
     grid-template-columns: 65.8% auto;
     column-gap: 30px;
     box-sizing: border-box;
+    margin: 30px 15px 30px;
 }
 
-@media screen and (max-width:759px) {
-    body {
-        margin: 30px 15px 30px;
-    }
-}
-
+/* FOR TABLETS/DESKTOPS */
 @media screen and (min-width:760px) {
     body {
         margin: 5% 13% 30px;
