@@ -8,8 +8,12 @@ nav {
 
 .nav-item a {
     text-decoration: none;
-    color: var(--dark-grayish-blue);
     padding-left: 40px;
+}
+
+.nav-item a {
+    font-size: 1.3em;
+    color: var(--very-dark-blue);
 }
 
 .menu-icons {
@@ -43,11 +47,6 @@ nav {
     margin-bottom: 40px;
 }
 
-#menu.responsive-menu .nav-item a {
-    font-size: 1.3em;
-    color: var(--very-dark-blue);
-}
-
 #close-icon {
     align-self: flex-end;
     margin-bottom: 100px;
@@ -65,5 +64,11 @@ nav {
 
     .nav-item {
         display: inline-block;
+        color: var(--dark-grayish-blue);
+    }
+
+    .nav-item a {
+        font-size: 1em;
+        color: var(--dark-grayish-blue);
     }
 }
