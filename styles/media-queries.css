@@ -54,7 +54,7 @@
 }
 
 @media screen and (min-width: 1300px) {
-    main {
+    #headline {
         grid-column: 1;
         display: grid;
         grid-template-columns: 50% 50%;
