@@ -34,5 +34,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@GabJen]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/GabJen))
+- Frontend Mentor - [@GabJen](https://www.frontendmentor.io/profile/GabJen)
 - LinkedIn - [Gabriela Jenyffer Silva](https://www.linkedin.com/in/gabrielajenyffer/)
